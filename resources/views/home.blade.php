@@ -43,7 +43,7 @@
                 <div class="navbar-nav w-100">
                     <a href="" class="nav-item nav-link active"><i class="fa fa-tachometer-alt me-2"></i>Dasbor</a>
                     <a href="" class="nav-item nav-link"><i class="fa fa-shopping-cart me-2"></i>Produk</a>
-                    <a href="" class="nav-item nav-link"><i class="fa fa-user-friends me-2"></i>Pelanggan</a>
+                    <a href="{{route('customer.index')}}" class="nav-item nav-link"><i class="fa fa-user-friends me-2"></i>Pelanggan</a>
                     <a href="" class="nav-item nav-link"><i class="fa fa-chart-bar me-2"></i>Penjualan</a>
                     <a href="" class="nav-item nav-link"><i class="fa fa-cash-register me-2"></i>Titik Penjualan</a>
                     <a href="" class="nav-item nav-link"><i class="fa fa-cog me-2"></i>Setting</a>
