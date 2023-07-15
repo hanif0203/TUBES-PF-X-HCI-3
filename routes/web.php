@@ -32,4 +32,3 @@ Route::get('logout', function ()
 })->name('logout');
 Route::post('/login', [LoginController::class, 'authenticate']);
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
-Route::get('/order', [App\Http\Controllers\OrderController::class, 'index'])->name('order');

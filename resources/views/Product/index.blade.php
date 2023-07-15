@@ -42,8 +42,8 @@
                 </div>
                 <div class="navbar-nav w-100">
                     <a href="{{route('home')}}" class="nav-item nav-link"><i class="fa fa-tachometer-alt me-2"></i>Dasbor</a>
-                    <a href="{{route('Product.index')}}" class="nav-item nav-link"><i class="fa fa-shopping-cart me-2"></i>Produk</a>
-                    <a href="{{route('customer.index')}}" class="nav-item nav-link active"><i class="fa fa-user-friends me-2"></i>Pelanggan</a>
+                    <a href="{{route('Product.index')}}" class="nav-item nav-link active"><i class="fa fa-shopping-cart me-2"></i>Produk</a>
+                    <a href="{{route('customer.index')}}" class="nav-item nav-link"><i class="fa fa-user-friends me-2"></i>Pelanggan</a>
                     <a href="" class="nav-item nav-link"><i class="fa fa-chart-bar me-2"></i>Penjualan</a>
                     <a href="" class="nav-item nav-link"><i class="fa fa-cash-register me-2"></i>Titik Penjualan</a>
                     <a href="" class="nav-item nav-link"><i class="fa fa-cog me-2"></i>Setting</a>
@@ -82,72 +82,69 @@
                 </div>
             </nav>
             <!-- Navbar End -->
-            <div class="d-flex align-items-center justify-content-between mb-4">
-                <h3 class="ms-3 mt-4">Manajemen Pelanggan</h3>
-                <a href="" class="btn btn-success me-3 mt-4"><i class="fas fa-plus"></i> Add New Customer</a>
-            </div>
 
 
-
-
-             <!-- Recent Sales Start -->
-             <div class="container-fluid pt-4 px-4">
-                <div class="bg-secondary text-center rounded p-4">
                     <div class="d-flex align-items-center justify-content-between mb-4">
-                        <h6 class="mb-0">Manajemen Pelanggan </h6>
-                        <a href="">Lihat Semua</a>
+                        <h3 class="mt-5 ms-4">PENGELOLAAN PRODUK</h3>
+                        <a href="" class="mx-4 mt-4 btn btn-success"><i class="fas fa-plus"></i> Add New Customer</a>
                     </div>
-                    <div class="table-responsive">
-                        <table class="table text-start align-middle table-bordered table-hover mb-0">
-                            <thead>
-                                <tr class="text-white">
-                                    <th scope="col">ID</th>
-                                    <th  scope="col">Avatar</th>
-                                    <th scope="col">Nama</th>
-                                    <th scope="col">Email</th>
-                                    <th scope="col">NO.Tel</th>
-                                    <th scope="col">Alamat</th>
-                                    <th scope="col">Tanggal</th>
-                                    <th scope="col">Action</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>001</td>
-                                    <td></td>
-                                    <td>hanif bahy hasyid</td>
-                                    <td>admin@admin1</td>
-                                    <td>089666530317</td>
-                                    <td>sidoarjo</td>
-                                    <td>10 JANUARI 2023</td>
-                                    <td><a style="background-color: rgba(53, 142, 224, 1)" class=" mx-3 btn btn-sm btn-dark far fa-edit " href=""></a> <a class=" btn btn-sm btn-primary" href=""><i class="fa fa-trash"></i></td>
+                        <!-- Recent Sales Start -->
+                        <div class="container-fluid pt-4 px-4">
+                            <div class="bg-secondary text-center rounded p-4">
+                                <div class="d-flex align-items-center justify-content-between mb-4">
+                                </div>
+                                <div class="table-responsive">
+                                    <table class="table text-start align-middle table-bordered table-hover mb-0">
+                                        <thead>
+                                            <tr class="text-white">
+                                                <th scope="col">ID</th>
+                                                <th scope="col">NAMA</th>
+                                                <th scope="col">GAMBAR</th>
+                                                <th scope="col">BARCODE</th>
+                                                <th scope="col">HARGA</th>
+                                                <th scope="col">JUMLAH</th>
+                                                <th scope="col">STATUS</th>
+                                                <th scope="col">CREATE AT</th>
+                                                <th scope="col">UPDATE AT</th>
+                                                <th scope="col">ACTION</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>001</td>
+                                                <td>SEMEN</td>
+                                                <td></td>
+                                                <td>1134621</td>
+                                                <td>Rp 100.000</td>
+                                                <td>1</td>
+                                                <td>Barang Sudah Siap</td>
+                                                <td>2023-07-09 12.59.03</td>
+                                                <td>2023-08-09 11.16.03</td>
+                                                <td><a style="background-color: rgba(53, 142, 224, 1)" class="btn btn-sm btn-dark far fa-edit " href=""></a> <a class="mx-3 btn btn-sm btn-primary" href=""><i class="fa fa-trash"></i></td>
 
-                                </tr>
-                                <tr>
-                                    <td>002</td>
-                                    <td></td>
-                                    <td>fahri firdaus</td>
-                                    <td>admin@admin2</td>
-                                    <td>08976546564</td>
-                                    <td>sidoarjo</td>
-                                    <td>15 JANUARI 2023</td>
-                                    <td><a style="background-color: rgba(53, 142, 224, 1)" class=" mx-3 btn btn-sm btn-dark far fa-edit " href=""></a> <a class=" btn btn-sm btn-primary" href=""><i class="fa fa-trash"></i></td>
-                                <tr>
-                                    <td>003</td>
-                                    <td></td>
-                                    <td>ansar nur jamas</td>
-                                    <td>admin@admin3</td>
-                                    <td>0897766654454</td>
-                                    <td>surabaya</td>
-                                    <td>20 JANUARI 2023</td>
-                                    <td><a  style=" background-color: rgba(53, 142, 224, 1)" class="mx-3 btn btn-sm btn-dark far fa-edit " href=""></a> <a class=" btn btn-sm btn-primary" href=""><i class="fa fa-trash"></i></td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
-            </div>
-            <!-- Recent Sales End -->
+                                            </tr>
+                                            <tr>
+                                                <td>002</td>
+                                                <td>PASIR</td>
+                                                <td></td>
+                                                <td>1135632</td>
+                                                <td>Rp 100.000</td>
+                                                <td>1</td>
+                                                <td>Barang Sudah Siap</td>
+                                                <td>2023-10-09 15.59.03</td>
+                                                <td>2023-11-09 18.10.03</td>
+                                                <td><a style="background-color: rgba(53, 142, 224, 1)" class="btn btn-sm btn-dark far fa-edit " href=""></a> <a class="mx-3 btn btn-sm btn-primary" href=""><i class="fa fa-trash"></i></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Recent Sales End -->
+
+
+
+
 
 
                         <!-- Footer Start -->
