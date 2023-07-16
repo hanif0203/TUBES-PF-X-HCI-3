@@ -3,6 +3,8 @@
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\Auth;
 use App\Http\Controllers\Auth\LoginController;
+use App\Http\Controllers\ProductController;
+use App\Http\Controllers\CustomerController;
 use App\Http\Controllers\OrderController;
 use Illuminate\Support\Facades\Redirect;
 
@@ -32,3 +34,6 @@ Route::get('logout', function ()
 })->name('logout');
 Route::post('/login', [LoginController::class, 'authenticate']);
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::resource('Product', ProductController::class);
+Route::resource('customer', CustomerController::class);
+Route::get('/order', [App\Http\Controllers\OrderController::class, 'index'])->name('order');

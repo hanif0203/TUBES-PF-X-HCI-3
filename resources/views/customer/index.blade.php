@@ -44,7 +44,7 @@
                     <a href="{{route('home')}}" class="nav-item nav-link"><i class="fa fa-tachometer-alt me-2"></i>Dasbor</a>
                     <a href="{{route('Product.index')}}" class="nav-item nav-link"><i class="fa fa-shopping-cart me-2"></i>Produk</a>
                     <a href="{{route('customer.index')}}" class="nav-item nav-link active"><i class="fa fa-user-friends me-2"></i>Pelanggan</a>
-                    <a href="" class="nav-item nav-link"><i class="fa fa-chart-bar me-2"></i>Penjualan</a>
+                    <a href="{{route('order')}}" class="nav-item nav-link"><i class="fa fa-chart-bar me-2"></i>Penjualan</a>
                     <a href="" class="nav-item nav-link"><i class="fa fa-cash-register me-2"></i>Titik Penjualan</a>
                     <a href="" class="nav-item nav-link"><i class="fa fa-cog me-2"></i>Setting</a>
                     <a href="{{ route('logout') }}" class="nav-item nav-link"><i class="fa fa-sign-out-alt me-2"
@@ -83,8 +83,8 @@
             </nav>
             <!-- Navbar End -->
             <div class="d-flex align-items-center justify-content-between mb-4">
-                <h3 class="ms-3 mt-4">Manajemen Pelanggan</h3>
-                <a href="" class="btn btn-success me-3 mt-4"><i class="fas fa-plus"></i> Add New Customer</a>
+                <h4 class="ms-4 mt-4">Manajemen Pelanggan</h4>
+                <a href="" class="btn btn-success me-4 mt-4"><i class="fas fa-plus"></i> Add New Customer</a>
             </div>
 
 
