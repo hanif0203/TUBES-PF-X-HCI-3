@@ -21,7 +21,8 @@ class CustomerController extends Controller
      */
     public function create()
     {
-        //
+        $pageTitle = 'Tambahkan Pelanggan';
+        return view('customer.create', ['pageTitle' =>$pageTitle]);
     }
 
     /**
