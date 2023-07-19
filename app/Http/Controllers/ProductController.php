@@ -22,7 +22,8 @@ class ProductController extends Controller
      */
     public function create()
     {
-        //
+        $pageTitle = 'Tambahkan Product';
+        return view('Product.create', ['pageTitle' => $pageTitle]);
     }
 
     /**
@@ -46,7 +47,8 @@ class ProductController extends Controller
      */
     public function edit(string $id)
     {
-        //
+        $pageTitle = 'Edit Product';
+        return view('Product.edit', ['pageTitle' => $pageTitle]);
     }
 
     /**
