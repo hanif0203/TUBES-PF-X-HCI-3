@@ -46,7 +46,8 @@ class CustomerController extends Controller
      */
     public function edit(string $id)
     {
-        //
+        $pageTitle = 'Edit Pelanggan';
+        return view('customer.edit', ['pageTitle' => $pageTitle]);
     }
 
     /**
